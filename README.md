@@ -34,18 +34,18 @@ Each node contains:
 
 There are 10 people, with their infomation stored:
 
-Name   relation level  date (mdd/mmdd)    wishedYou
-
-Diya        3               114             1
-PJ          3               222             1
-Jack        3               223             1
-Aly         1               430             0
-Yukta       2               929             1
-Wei         1               930             0
-Krish       2               1006            1
-Jay         2               1111            1
-Gia         1               1122            0
-Zoya        1               1212            1
+Name   |relation level  |date (mdd/mmdd)    |wishedYou
+-------|----------------|-------------------|----------
+Diya   |     3          |     114           |  1
+PJ     |     3          |     222           |  1
+Jack   |     3          |     223           |  1
+Aly    |     1          |     430           |  0
+Yukta  |     2          |     929           |  1
+Wei    |     1          |     930           |  0
+Krish  |     2          |     1006          |  1
+Jay    |     2          |     1111          |  1
+Gia    |     1          |     1122          |  0
+Zoya   |     1          |     1212          |  1
 
 We find the corresponding node by comparing the name value of the node to the inputted name.
 If they match, we use the corresponding relation level to find out what idea we should use for them.
@@ -56,22 +56,22 @@ Hold the values of different ideas a person can do to celebrate someone's birthd
 
 This is another linked list, that stores the following information, for each idea.
 
-Idea                                              For What Relation Value      Done Before?
-
-hold a surprise party                                       3                       0
-make a collage with your memories                           3                       0
-send them a birthday card                                   1                       0
-gift them simple jewerly                                    2                       0
-commission a painting of the two of you                     3                       0
-text them happy birthday                                    1                       0
-plan a movie together                                       3                       0
-write a poem                                                3                       0
-gift them a gag gift                                        2                       0
-give them a gift card to their favorite store               1                       0
-gift them cheap chocolate                                   1                       0
-gift them nice chocolate                                    2                       0
-gift them their favorite chocolates & treats                3                       0
-gift tickets to a new movie                                 2                       0
+Idea                                              |For What Relation Value      |Done Before?
+------------------------------------------------- |-----------------------------|-------------
+hold a surprise party                             |          3                  |     0
+make a collage with your memories                 |          3                  |     0
+send them a birthday card                         |          1                  |     0
+gift them simple jewerly                          |          2                  |     0
+commission a painting of the two of you           |          3                  |     0
+text them happy birthday                          |          1                  |     0
+plan a movie together                             |          3                  |     0
+write a poem                                      |          3                  |     0
+gift them a gag gift                              |          2                  |     0
+give them a gift card to their favorite store     |          1                  |     0
+gift them cheap chocolate                         |          1                  |     0
+gift them nice chocolate                          |          2                  |     0
+gift them their favorite chocolates & treats      |          3                  |     0
+gift tickets to a new movie                       |          2                  |     0
 
 All ideas' DoneBefore value are intialized at zero.
 
